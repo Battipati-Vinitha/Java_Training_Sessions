@@ -130,7 +130,7 @@ public static int findBookIndex(String bookTitle) {
         }
         else {
         	if(borrowedBooks[i] != null && borrowedBooks[i].equalsIgnoreCase(bookTitle)) {
-        		
+        	return i;	
         	}
         }
     
